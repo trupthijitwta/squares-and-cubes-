@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Squares and Cubes</title>
+</head>
+<body>
+<style>
+    table,td,tr{
+        border: 3px solid black;
+        border-collapse: collapse;
+       
+    }
+
+    body {
+            margin: 0;
+            padding: 0;
+        }
+  
+        div {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+  
+        h2 {
+            font-size: 1.5em;
+            font-family: serif;
+            color: #b17af0;
+            text-align: center;
+            animation: animate 
+                1.5s linear infinite;
+        }
+  
+        @keyframes animate {
+            0% {
+                opacity: 0;
+            }
+  
+            50% {
+                opacity: 0.7;
+            }
+  
+            100% {
+                opacity: 0;
+            }
+        }
+</style>
+<table align="center" style="background-color:#e1bcf1">
+<tr style="font-family:verdana">
+<td colspan="4">  <strong>NUMBERS FROM O 10 WITH THEIR SQUARES AND CUBES</strong></td>
+
+</tr>
+<tr align="center" style="font-family:verdana">
+<td><strong>NUMBERS</strong> </td>
+<td><strong>SQUARES</strong></td>
+<td><strong>CUBES</strong></td>
+</tr>
+<script type="text/javascript">
+for(var i=0;i<=10;i++)
+{
+document.write("<tr  align='center'><td>" + i + "</td><td>" + i*i
+
++"</td><td>" + i*i*i + "</td></tr>")
+
+}
+
+
+</script>
+</table>
+<div>
+    <h2>ASSIGNMENT-2 CHALLENGE COMPLETE!</h2>
+</div>
+</body>
+</html>
